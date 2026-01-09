@@ -39,7 +39,7 @@ pip install surf-scrap-hp
 ## Quick Start
 
 ```python
-from surf_scrap import scrape_surf_report
+from surf-scrap-hp import scrape_surf_report
 
 scrape_surf_report(
     "https://www.surf-report.com/meteo-surf/carcans-plage-s1013.html",

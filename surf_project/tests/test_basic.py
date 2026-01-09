@@ -1,4 +1,4 @@
-from surf_project.src.urf_scrap import scrape_surf_report
+from surf-scrap-hp import scrape_surf_report
 import os
 
 
@@ -10,3 +10,6 @@ def test_scrape_creates_csv(tmp_path):
 
     assert os.path.exists(output)
     assert not df.empty
+    
+if __name__ == "__main__":
+    test_scrape_creates_csv()
