@@ -64,11 +64,11 @@ def scrape_surf_report(url: str, output_csv: str) -> pd.DataFrame:
 
             # --- ASSOCIATION: We are creating a dictionary for this line ---
             row = {
-                "Jour": day,
-                "Heure": hour,
-                "Taille Vagues": wave,
-                "Vitesse Vent(km/h)": speed,
-                "Direction Vent": direction
+                "Day": day,
+                "Hour": hour,
+                "Wave_size_m": wave,
+                "Wind_speed_km_h": speed,
+                "Wind_direction": direction
             }
             
             # We add this line to our global list
