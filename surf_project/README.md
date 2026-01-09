@@ -1,12 +1,12 @@
-# Surf Scrap - `surf-scrap-hp`
+# Surf Scrap - `surfscraphb`
 
-**surf-scrap-hp** is a Python package that allows you to extract surf conditions  
+**surfscraphb** is a Python package that allows you to extract surf conditions  
 from **surf-report.com** and save them into a CSV file for further analysis or dashboard creation.
 
 This package was developed as part of a data analysis project to help surf
 schools identify the best moments to practice surfing during the week.
 
-[![PyPI version](https://badge.fury.io/py/surf-scrap-hp.svg)](https://badge.fury.io/py/surf-scrap-hp)
+[![PyPI version](https://badge.fury.io/py/surfscraphb.svg)](https://badge.fury.io/py/surfscraphb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ---
 
@@ -32,14 +32,14 @@ Install the package from PyPI:
 
 
 ```bash
-pip install surf-scrap-hp
+pip install surfscraphb
 ```
 ---
 
 ## Quick Start
 
 ```python
-from surf-scrap-hp import scrape_surf_report
+from surfscraphb import scrape_surf_report
 
 scrape_surf_report(
     "https://www.surf-report.com/meteo-surf/carcans-plage-s1013.html",
@@ -106,7 +106,7 @@ You are free to use, modify, and distribute it.
 ---
 
 ## Useful Links
- PyPI : [https://pypi.org/project/surf-scrap-hp/](https://pypi.org/project/surf-scrap-hp/)
+ PyPI : [https://pypi.org/project/surfscraphb/](https://pypi.org/project/surfscraphb/)
 
 ## Authors
 

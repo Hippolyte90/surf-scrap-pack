@@ -3,8 +3,8 @@ requires = ["setuptools>=78.1.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "surf-scrap-hp"
-version = "0.0.2"
+name = "surfscraphb"
+version = "0.0.1"
 authors = [
    { name = "MISSONGO Aimé Blanchard" },
   { name = "Hippolyte SODJINOU" },

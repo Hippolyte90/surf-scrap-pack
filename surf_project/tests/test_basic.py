@@ -1,4 +1,4 @@
-from surf-scrap-hp import scrape_surf_report
+from surfscraphp import scrape_surf_report
 import os
 
 
