@@ -6,7 +6,8 @@ build-backend = "setuptools.build_meta"
 name = "surf-scrap"
 version = "0.0.2"
 authors = [
-  { name="[MISSONGO Aimé Blanchard, Hippolyte SODJINOU]"},
+   { name = "MISSONGO Aimé Blanchard" },
+  { name = "Hippolyte SODJINOU" },
 ]
 description = "Scrape surf conditions from surf-report.com"
 readme = "README.md"
